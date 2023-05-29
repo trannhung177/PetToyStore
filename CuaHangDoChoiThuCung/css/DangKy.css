@@ -1,0 +1,55 @@
+﻿body {
+    background-image: url(../img/cunsieupham.com-background.jpg)
+
+}
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.form {
+    width: 420px;
+    min-height: 100px;
+    padding: 16px 24px;
+    text-align: center;
+    background: #fff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    align-self: center;
+    box-shadow: 0 2px 5px 0 rgba(51,62,74,.1);
+}
+.form-gruop {
+    display:flex;
+    margin-bottom:16px;
+    flex-direction: column;
+}
+.form-label {
+    text-align: left;
+    font-weight:700;
+    padding-bottom: 5px;
+}
+.form-control {
+    height:40px;
+    padding: 8px 12px;
+    border: 1px solid #808080;
+    border-radius:3px;
+    outline: none; 
+
+}
+.form-control:hover {
+        border-color: #ffd800;
+    }
+.form-submit {
+    outline:none;
+    background: #f00;
+    margin-top: 12px;
+    width:100%;
+    font-size: 14px;
+    padding: 12px 16px;
+    border-radius: 8px;
+}
+    .form-submit:hover {
+        background-color:  #20f36b;
+    }
+
